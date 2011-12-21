@@ -1,0 +1,14 @@
+Source: xs-tools
+Section: admin
+Priority: extra
+Maintainer: Mike McClurg <mike.mcclurg@citrix.com>
+Build-Depends: debhelper (>= 8.0.0), wget
+Standards-Version: 3.9.2
+Homepage: http://downloads.xen.org/XCP
+
+Package: xs-tools
+Architecture: all
+Depends: ${misc:Depends}
+Description: XenServer tools ISO for Windows PV drivers
+ This package installs the XenServer tools ISO, which contains Citrix's
+ proprietary Windows PV drivers. 

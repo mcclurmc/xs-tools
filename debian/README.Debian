@@ -1,0 +1,11 @@
+xs-tools for Debian
+-------------------
+
+This package installs the XenServer tools ISO, which contains Citrix's
+proprietary Windows PV drivers. This package is binary-only, and will not
+contain the source code fro these drivers. It is provided as a non-free
+download. The source package doesn't actually contain the ISO, but has a script
+for downloading it from http://downloads.xen.org (or an option to use a local
+copy, if the script is run from within the XenServer build environment).
+
+ -- Mike McClurg <mike.mcclurg@citrix.com>  Wed, 21 Dec 2011 14:46:04 +0000
