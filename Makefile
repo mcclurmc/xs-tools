@@ -5,6 +5,8 @@ XSTOOLS_ISO=xs-tools-$(VERSION).iso
 XSTOOLS_DIR=/usr/share/xcp/packages/iso
 XSTOOLS_ISO_PATH=opt/xensource/packages/iso/$(XSTOOLS_ISO)
 
+.DEFAULT: install
+
 $(XSTOOLS_ISO): get-xs-tools.sh
 	./get-xs-tools.sh
 
